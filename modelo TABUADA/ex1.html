@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABUADA</title>
+    <link rel="stylesheet" href="estilo.css"> <!-- chamda para estilo arquivo externo-->
+</head>
+<body>
+    <header> <!-- titulo-->
+        <h1>TABUADA</h1>
+    </header>
+    <section> <!-- seção quadrado-->
+        <div id="dados">
+            Número:<input type="number" name="txtn" id="txtn"> 
+            <input type="button" value="Gerar Tabuada" onclick="contar()">
+            <input type="button" value="Limpar" onclick="limpar()">
+        </div>
+
+        <div id="res">   
+          <select name="tabuada" id="seltab" size="10">
+            <option>Digite um Número acima</option>
+          </select>
+        </div>
+
+    </section>
+    <footer><!-- subtitulo inferior-->
+        <p>&copy;VictorDuarte</p>
+    </footer>
+    <script src="script.js"></script> <!--chamada para javascript em arquivo externo-->     
+</body>
+</html>
